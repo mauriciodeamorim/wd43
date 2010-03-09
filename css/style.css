@@ -43,6 +43,8 @@ ul#menu_plus {list-style: none;}
 #busca {float: right; background-color: #1d1f46; width: 461px; position: relative; top: -10px; padding: 13px;}
 	#busca p img {position: relative; top: 10px;}
 
+#categoria {background-color: #d5d9ff; width: 445px; border-right: 1px solid #676fff;float: left;}
+
 /*
 ul#menu
 Le-se procure dentro da pagina os UL com id=menu
