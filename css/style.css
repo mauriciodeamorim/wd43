@@ -14,6 +14,10 @@ ul#menu_top {list-style: none;}
 	ul#menu_top li a {font-size: 18px; color: #020202; text-decoration: none;}
 	ul#menu_top li {padding-left: 10px; padding-right: 10px; float: right;}
 
+ul#menu_plus {list-style: none;}
+	ul#menu_plus li a {font-size: 18px; color: #020202; text-decoration: none;}
+	ul#menu_plus li {padding-left: 10px; padding-right: 10px; float: right;}
+
 #banner {float: left; background: url(../images/banner.jpg) no-repeat; height: 298px; width: 607px; margin-top: 17px;}
 
 #content {margin-top: 17px; padding: 20px; float: left; width: 313px;}
@@ -35,7 +39,7 @@ ul#menu_top {list-style: none;}
 	#info ul li {display: inline;}
 	#info ul li a {color: #fffff1; text-decoration: none;}
 
-#busca {float: right; background-color: #1d1f46; width: 461px; position: relative; top: -10px, padding: 13px;}
+#busca {float: right; background-color: #1d1f46; width: 461px; position: relative; top: -10px; padding: 13px;}
 	#busca p img {position: relative; top: 10px;}
 
 /*
