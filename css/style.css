@@ -20,6 +20,7 @@ ul#menu_plus {list-style: none;}
 	ul#menu_plus li {padding-left: 10px; padding-right: 10px; float: right;}
 
 #banner {float: left; background: url(../images/banner.jpg) no-repeat; height: 298px; width: 607px; margin-top: 17px;}
+#banner_category {float: left; background: url(../images/banner_categoria.jpg) no-repeat; height: 240px; width: 607px; margin-top: 17px;}
 
 #content {margin-top: 17px; padding: 20px; float: left; width: 313px;}
 	#content h2 {color: #1e1e44; font-size: 24px;}
@@ -29,8 +30,10 @@ ul#menu_plus {list-style: none;}
 #novidades {background-color: #d5d9ff; width: 445px; border-right: 1px solid #676fff;float: left;}
 #vendidos {background-color: #bdc1ef; width: 461px; border-right: 1px solid #feffff; float: left;}
 .painel_destaque {height: 353px; float: left; margin: 17px 0 15px; padding: 24px 13px 13px 13px;}
+
 #novidades h3, #vendidos h3 {color: #1c1f48; font-size: 18px;}
 	#novidades h3 span, #vendidos h3 span {color: #1cffff; font-size: 14px;}
+
 .produto {margin-top: 15px; float: left; margin-right: 8px;}
 	.produto img {border: solid 1px #a8abf8;}
 	.produto small {color: #3d444c; font-size: 10px; display: block;}
@@ -44,6 +47,7 @@ ul#menu_plus {list-style: none;}
 	#busca p img {position: relative; top: 10px;}
 
 #categoria {background-color: #d5d9ff; width: 445px; border-right: 1px solid #676fff;float: left;}
+.product_category {background-color:red;border:1px solid buttonshadow;color:yellow;float:left;margin-right:38px;width:180px;}
 
 /*
 ul#menu
