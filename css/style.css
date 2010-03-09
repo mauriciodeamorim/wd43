@@ -11,7 +11,8 @@ body {font-family: Arial, Helvetica}
 #header {padding-top: 20px;}
 
 ul#menu_top {list-style: none;}
-	ul#menu_top li a {font-size: 18px; color: #020202; text-decoration: none;}
+	ul#menu_top li a:hover, ul#menu_top li a:active {background-color: #030303; color: red; padding: 4px; -moz-border-radius: 5px;}
+	ul#menu_top li a:link, ul#menu_top li a:visited {font-size: 18px; color: #020202; text-decoration: none; padding: 4px;}
 	ul#menu_top li {padding-left: 10px; padding-right: 10px; float: right;}
 
 ul#menu_plus {list-style: none;}
