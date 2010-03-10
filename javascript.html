@@ -1,0 +1,44 @@
+<script type="text/javascript">
+
+//	alert('Ola mundo!');
+//var msg = 1;
+//	console.log(msg);
+// msg = 'Ola mundo!'
+//	console.log(msg);
+
+
+
+function lala() {
+	console.log('7343543424242' + 7  + 7);
+}
+
+//lala();
+
+function soma(){
+	console.log('soma');
+} 
+
+function operacao(op){
+	op();
+}
+
+//prototipos
+function pessoa(nome){
+	this.nome = nome;
+
+	this.fala_b = 	function fala_b(){
+		console.log('BBBBBBBBBBBBBBB');
+ }
+
+	function fala_a(){
+		console.log('A');
+ }
+}
+
+var p = new pessoa('Jose');
+
+p.fala_b();
+//console.log(p.nome);
+
+//operacao(soma);
+</script>

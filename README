@@ -17,4 +17,27 @@ DOCTYPE
 
 hover
 
+=========================================
+Segundo dia
+
+Javascript
+Linguagem fraca e dinamica, surgiu em 1995
+
+Tipos primitivos:
+number, string, boolean 
+
+Objetos
+array, functions, data, regexp
+
+C.E.
+null
+undefined
+
+Passagem sobre 
+variáveis
+operadores
+fluxo de controle
+funcoes
+prototipos
+
 
