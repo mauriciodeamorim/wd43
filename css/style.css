@@ -68,6 +68,20 @@ ul[id|="sub"] {background: #FCFCFC; float: right; clear: right; padding-right: 2
 	ul[id|="sub"] li a:hover,
 	ul[id|="sub"] li a:active {color: #000066;}
 
+.clearfix:after {content: "."; visibility: hidden; display: block; height: 0; clear: both;}
+
+#produto_imagem {margin-top: 17px; float: left;}
+	#produto_imagem img {float: left; clear: left;}
+#produto_descricao {float: left; width: 652px; padding: 18px 0 0 18px; margin-top: 17px;}
+	#produto_descricao p, #produto_descricao ul {color: #3d3d3d; font-size: 12px; list-style: none;}
+	#produto_descricao span {color: #0c0241; font-size: 28px; font-weight: bold;}
+	#produto_descricao strong {font-size: 20px; font-weight: bold; color: #3d3d3d; display: block;}
+
+.quadrado {cursor: pointer; display: inline-block; width: 33px; height: 33px;}
+
+#preto {background-color: yellow;}
+#azul {background-color: blue;}
+#cinza {background-color: gray;}
 /*
 ul#menu
 Le-se procure dentro da pagina os UL com id=menu
