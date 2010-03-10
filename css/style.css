@@ -53,7 +53,16 @@ ul#menu_plus {list-style: none;}
 		.product_category:hover img {border:1px solid black;}
 		.product_category div {font-size: 12px;}
 
+#menu_secoes {background: url('../images/jeans.jpg'); clear: right; float: right; list-style: none; margin-top: 4px;}
+	#menu_secoes {display: inline;}
+	#menu_secoes li a.inicial:link,
+	#menu_secoes li a.inicial:visited {color: #fff; display: inline-block; font-weight: bold; text-decoration: none; width: 117px; text-align: center; padding: 20px 0px;}
+	#menu_secoes li a.inicial:hover,
+	#menu_secoes li a.inicial:active {}
+	#menu_secoes li a.selecionado:link,
+	#menu_secoes li a.selecionado:visited {background: url('../images/menu_hover.jpg');color: #fff; display: inline-block; font-weight: bold; text-decoration: none; width: 117px; text-align: center; padding: 20px 0px;}
 
+ul[id|="sub"]
 /*
 ul#menu
 Le-se procure dentro da pagina os UL com id=menu
