@@ -6,18 +6,15 @@ body {font-family: Arial, Helvetica}
 
 #footer {background: url(../images/footer.jpg) repeat-x; height: 92px; color: #fffff1; padding: 10px; font-size: 14px;}
 
-#logo {background: url(../images/logo.jpg) no-repeat; height: 128px; width: 207px; float: left;}
+#logo {background: url(../images/logo.jpg) no-repeat; height: 134px; width: 207px; float: left;}
 	#logo h1 {text-indent: -9999px;}
-#header {padding-top: 20px;}
+#header {padding-top: 15px;}
 
-ul#menu_top {list-style: none;}
-	ul#menu_top li a:hover, ul#menu_top li a:active {background-color: #030303; color: red; padding: 4px; -moz-border-radius: 5px;}
-	ul#menu_top li a:link, ul#menu_top li a:visited {font-size: 18px; color: #020202; text-decoration: none; padding: 4px;}
+ul#menu_top {list-style: none; color: #020202}
+	ul#menu_top a {color: #020202}
+	ul#menu_top li a:hover, ul#menu_top li a:active {background-color: #020234; color: white; padding: 4px; -moz-border-radius: 5px;}
+	ul#menu_top li a:link, ul#menu_top li a:visited {font-size: 18px; text-decoration: none; padding: 4px;}
 	ul#menu_top li {padding-left: 10px; padding-right: 10px; float: right;}
-
-ul#menu_plus {list-style: none;}
-	ul#menu_plus li a {font-size: 18px; color: #020202; text-decoration: none;}
-	ul#menu_plus li {padding-left: 10px; padding-right: 10px; float: right;}
 
 #banner {float: left; background: url(../images/banner.jpg) no-repeat; height: 298px; width: 607px; margin-top: 17px;}
 #banner_category {float: left; background: url(../images/banner_categoria.jpg) no-repeat; height: 240px; width: 607px; margin-top: 17px;}
@@ -53,16 +50,24 @@ ul#menu_plus {list-style: none;}
 		.product_category:hover img {border:1px solid black;}
 		.product_category div {font-size: 12px;}
 
-#menu_secoes {background: url('../images/jeans.jpg'); clear: right; float: right; list-style: none; margin-top: 4px;}
-	#menu_secoes {display: inline;}
+#menu_secoes {background: url(../images/jeans.jpg); clear: right; float: right; list-style: none; margin-top: 10px;}
+	#menu_secoes li {display: inline;}
 	#menu_secoes li a.inicial:link,
 	#menu_secoes li a.inicial:visited {color: #fff; display: inline-block; font-weight: bold; text-decoration: none; width: 117px; text-align: center; padding: 20px 0px;}
-	#menu_secoes li a.inicial:hover,
-	#menu_secoes li a.inicial:active {}
-	#menu_secoes li a.selecionado:link,
-	#menu_secoes li a.selecionado:visited {background: url('../images/menu_hover.jpg');color: #fff; display: inline-block; font-weight: bold; text-decoration: none; width: 117px; text-align: center; padding: 20px 0px;}
+	#menu_secoes li a.inicial:hover,	#menu_secoes li a.inicial:active {  s}
 
-ul[id|="sub"]
+	#menu_secoes li a.selecionado:link,
+	#menu_secoes li a.selecionado:visited {background: url(../images/menu_hover.jpg) no-repeat bottom; color: #fff; display: inline-block; font-weight: bold; text-decoration: none; width: 117px; text-align: center; padding: 20px 0px;}
+
+/*para qualquer elemento ul que comece com "sub" ... faca tal coisa*/
+ul[id|="sub"] {background: #FCFCFC; float: right; clear: right; padding-right: 20px; -moz-border-radius: 4px 0px 4px 4px; border-right: solid 1px #CCC; border-bottom: solid 1px #CCC;}
+	ul[id|="sub"] li {display: inline;}
+
+	ul[id|="sub"] li a:link,
+	ul[id|="sub"] li a:visited {color: #696969; display: inline-block; text-decoration: none; font: bold 12px Arial, Helvetica; padding: 10px 20px;}
+	ul[id|="sub"] li a:hover,
+	ul[id|="sub"] li a:active {color: #000066;}
+
 /*
 ul#menu
 Le-se procure dentro da pagina os UL com id=menu
