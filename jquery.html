@@ -1,0 +1,49 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+</script>
+
+<div id="wd">
+	<p> Caelum </p>
+	<p> Caelum </p>
+	<p> Caelum </p>
+	<p id="p_1"> Caelum </p>
+	<p id="p_2"> Caelum </p>
+</div>
+<table>
+	<tr><td> Caelum </td></tr>
+	<tr><td> Caelum </td></tr>
+	<tr><td> Caelum </td></tr>
+	<tr><td> Caelum </td></tr>
+	<tr><td> Caelum </td></tr>
+	<tr><td> Caelum </td></tr>
+</table>
+
+<script>
+// Selecione qualquer div que estiver dentro de p
+	$('div > p').css('border', '10px solid #2aadd2');
+	$('div > #p_1').css('border', '10px solid red');
+	$('div > #p_2').css('border', '10px solid yellow');
+	$(document.body).css('color', 'white');
+	$(document.body).css('background', 'green');
+	$("<div><p>Locaweb</p></div>").appendTo("body").css('font-size', '50px');
+//	$('div > p').hide();
+	$(function(){
+		$('<p> Pronto!!!!!!!!!!!!</p>').appendTo('body');
+	})
+
+	$(document.body).click(function(){
+		$('div').each(function(){
+			if(this.style.color != 'blue'){
+				this.style.color = 'red';
+			}else{
+				this.style.color = 'yellow';
+			 }
+		});
+	})
+
+	$('p').eq(1).css('border', '1px solid red');
+
+	$("#wd, p").css('font-style', 'italic');
+// manipulacao de tabela com diferenciacao de cores
+	$('tr:odd').css('background-color', '#fff').css('color', '#000');
+	$('tr:even').css('background-color', '#000');
+</script>
