@@ -37,8 +37,37 @@ function pessoa(nome){
 
 var p = new pessoa('Jose');
 
-p.fala_b();
+//p.fala_b();Clique
 //console.log(p.nome);
-
 //operacao(soma);
-</script>
+//prototype é uma forma de colocar mais coisas dentro de uma fCliqueCliqueuncão
+pessoa.prototype.fala_c = function(){
+	console.log('CCCCCCCC');
+}
+
+p.fala_c();
+
+//Eventos
+function fala(){
+	alert('dadadaasas dadada fada da s asd as');
+}
+
+
+function iniciar(){
+	var texto = document.getElementById('texto');
+	texto.addEventListener('click', function(){ alert('clicado');}, false);
+}
+
+var pessoa = {
+	nome: 'Mauricio',
+	sobrenome: ' Amorim',
+	nomeCompleto: function(){ return this.nome + this.sobrenome;}
+}
+console.log(pessoa.nomeCompleto());
+</script>Clique
+
+
+<body onload="iniciar()">
+<span onclick="fala();"> Caelum </span>
+<div id="texto"> Clique me!!!!! </div>
+</body>
