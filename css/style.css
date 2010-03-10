@@ -47,7 +47,12 @@ ul#menu_plus {list-style: none;}
 	#busca p img {position: relative; top: 10px;}
 
 #categoria {background-color: #d5d9ff; width: 445px; border-right: 1px solid #676fff;float: left;}
-.product_category {background-color:red;border:1px solid buttonshadow;color:yellow;float:left;margin-right:38px;width:180px;}
+.product_category {background-color:white;color:#2D3A67;float:left;margin:0 38px 40px 0;width:179px;-moz-border-radius: 5px;}
+	.product_category img {border:1px solid #AA9C8F;}
+	.product_category:hover {background-color:#7E97C0;color:white;float:left;margin:0 38px 40px 0; width:179px; -moz-border-radius: 5px;}
+		.product_category:hover img {border:1px solid black;}
+		.product_category div {font-size: 12px;}
+
 
 /*
 ul#menu
