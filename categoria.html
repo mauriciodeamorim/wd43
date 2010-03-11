@@ -1,38 +1,61 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head> 
- <title>Mirror Fashion</title>
- <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<title>Mirror Fashion</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src="script/jquery-1.4.2.js"></script> 	
+	<script type="text/javascript" src="script/menu.js"></script> 	
 </head>
 <body>
 	<div id="main">
 		<div class="container"> 
-			<div id="header">
+			<div id="header" class="clearfix">
 				<div id="logo">
 					<h1>Mirror Fashion</h1>
 				</div>
 				<ul id="menu_top">
-					<li><a href="#">Contato</a></li>
-					<li><a href="#">Noticias</a></li>
-					<li><a href="#">Promocoes</a></li>
-					<li><a href="#">Novidades</a></li>
-					<li><a href="#">Home</a></li>
+					<li><a href="contato.html">CONTACT US</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="categoria.html">OFFERS</a></li>
+					<li><a href="#">PRODUCTS</a></li>
+					<li><a href="index.html">HOME</a></li>
 				</ul>			
-				<div style="clear:both"></div>
-				<ul id="menu_plus">
-					<li><a href="#">Feminino</a></li>
-					<li><a href="#">Masculino</a></li>
-					<li><a href="#">Infantil</a></li>
+
+				<ul id="menu_secoes">
+					<li><a class="inicial" href="#" id="opt-feminino">WOMAN</a></li>
+					<li><a class="inicial" href="#" id="opt-masculino">MAN</a></li>
+					<li><a class="inicial" href="#" id="opt-infantil">TEEN</a></li>
 				</ul>		
+
+				<ul id="sub-feminino">
+					<li><a href="#" onclick="$('#content h2').text('T-SHIRTS'),$('#content h4').text('SOME T-SHIRTS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria.jpg) no-repeat')">T-SHIRTS</a></li>
+					<li><a href="#" onclick="$('#content h2').text('JEANS'),$('#content h4').text('SOME JEANS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_2.png) no-repeat')">JEANS</a></li>
+					<li><a href="#" onclick="$('#content h2').text('SWEATERS'),$('#content h4').text('SOME SWEATERS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_3.png) no-repeat')">SWEATERS</a></li>
+					<li><a href="#" onclick="$('#content h2').text('BELTS'),$('#content h4').text('SOME BELTS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_4.png) no-repeat')">BELTS</a></li>
+				</ul>			
+
+				<ul id="sub-masculino">
+					<li><a href="#" onclick="$('#content h2').text('JEANS'),$('#content h4').text('SOME JEANS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_5.png) no-repeat')">JEANS</a></li>
+					<li><a href="#" onclick="$('#content h2').text('SHIRTS'),$('#content h4').text('SOME SHIRTS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_8.png) no-repeat')">SHIRTS</a></li>
+					<li><a href="#" onclick="$('#content h2').text('SWEATERS'),$('#content h4').text('SOME SWEATERS'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_7.png) no-repeat')">SWEATERS</a></li>
+					<li><a href="#" onclick="$('#content h2').text('POLO'),$('#content h4').text('SOME POLO'), $('#banner_category').removeClass('background').css('background', 'url(images/banner_categoria_6.png) no-repeat')">POLO</a></li>					
+				</ul>			
+
+				<ul id="sub-infantil">
+					<li><a href="#">T-SHIRTS</a></li>
+					<li><a href="#">DRESSES</a></li>
+					<li><a href="#">SHOES</a></li>
+					<li><a href="#">BOTTOMS</a></li>
+				</ul>			
 			</div>
-			
+
 			<div id="banner_category"></div>
 	
 			<div id="content">
 				<h2>T-SHIRTS</h2>
-				<h4>Area complementar</h4>
+				<h4>THE BEST T-SHIRTS </h4>
 				<p>
-					dsaasdadasdasdasdasdd faja;lkja sjhdjsh sjhjsgds
+					A modern military-inspired update to our subtly sexy shirt. Tailored cotton woven with a comfortable touch of stretch. Designed with a sleek, slimming fit, perfect for day or night.
 				</p>
 			</div>
 			<div style="clear:both"></div>
@@ -62,19 +85,19 @@
 		<div class="container"> 
 			<div id="info">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Novidades</a></li>
-					<li><a href="#">Promocoes</a></li>
-					<li><a href="#">Noticias</a></li>
-					<li><a href="#">Contato</a></li>
+					<li><a href="#">HOME</a> |</li>
+					<li><a href="#">PRODUCTS</a> |</li>
+					<li><a href="#">SALES</a> |</li>
+					<li><a href="#">NEWSLETTER</a> |</li>
+					<li><a href="#">CONTACT</a></li>
 				</ul>
-				<p>@2010, Mirror Fashion</p>
+				<p>TM 2010, MIRROR FASHION, SECURITY & PRIVACY</p>
 			</div>
 
 			<div id="busca">
 				<img src="images/twitter.jpg" alt=""/>
 				<img src="images/rss.jpg" alt=""/>
-				<p>Novidades e promocoes?
+				<p>NEWS AND DISCOUNTS?
 					<input type="text"/><img src="images/seta.jpg" alt=""/>
 				</p>
 			</div>

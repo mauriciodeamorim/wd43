@@ -6,7 +6,7 @@ body {font-family: Arial, Helvetica}
 
 #footer {background: url(../images/footer.jpg) repeat-x; height: 92px; color: #fffff1; padding: 10px; font-size: 14px;}
 
-#logo {background: url(../images/logo.jpg) no-repeat; height: 134px; width: 207px; float: left;}
+#logo {background: url(../images/logo.jpg) no-repeat; height: 145px; width: 207px; float: left; background-position: 0 5px;}
 	#logo h1 {text-indent: -9999px;}
 #header {padding-top: 15px;}
 
@@ -16,10 +16,10 @@ ul#menu_top {list-style: none; color: #020202}
 	ul#menu_top li a:link, ul#menu_top li a:visited {font-size: 18px; text-decoration: none; padding: 4px;}
 	ul#menu_top li {padding-left: 10px; padding-right: 10px; float: right;}
 
-#banner {float: left; background: url(../images/banner.jpg) no-repeat; height: 298px; width: 607px; margin-top: 17px;}
-#banner_category {float: left; background: url(../images/banner_categoria.jpg) no-repeat; height: 240px; width: 607px; margin-top: 17px;}
+#banner {float: left; background: url(../images/banner.jpg) no-repeat; height: 298px; width: 607px; margin-top: 0px;}
+#banner_category {float: left; background: url(../images/banner_categoria.jpg) no-repeat; height: 240px; width: 607px; margin-top: 5px;}
 
-#content {margin-top: 17px; padding: 20px; float: left; width: 313px;}
+#content {margin-top: 0px; padding: 20px; float: left; width: 313px;}
 	#content h2 {color: #1e1e44; font-size: 24px;}
 	#content h4 {color: #555998; font-size: 18px; margin-bottom: 15px;}
 	#content p {font-size: 18px;}
@@ -50,7 +50,7 @@ ul#menu_top {list-style: none; color: #020202}
 		.product_category:hover img {border:1px solid black;}
 		.product_category div {font-size: 12px;}
 
-#menu_secoes {background: url(../images/jeans.jpg); clear: right; float: right; list-style: none; margin-top: 10px;}
+#menu_secoes {background: url(../images/jeans.jpg); clear: right; float: right; list-style: none; margin-top: 10px; font-size: 16px;}
 	#menu_secoes li {display: inline;}
 	#menu_secoes li a.inicial:link,
 	#menu_secoes li a.inicial:visited {color: #fff; display: inline-block; font-weight: bold; text-decoration: none; width: 117px; text-align: center; padding: 20px 0px;}
