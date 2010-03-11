@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head> 
+	<title>Mirror Fashion</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src="script/jquery-1.4.2.js"></script> 	
+	<script type="text/javascript" src="script/menu.js"></script> 	
+</head>
+<body>
+	<div id="main">
+		<div class="container"> 
+			<div id="header" class="clearfix">
+				<div id="logo">
+					<h1>Mirror Fashion</h1>
+				</div>
+				<ul id="menu_top">
+					<li><a href="contato.html">CONTACT US</a></li>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="categoria.html">OFFERS</a></li>
+					<li><a href="produtos.html">PRODUCTS</a></li>
+					<li><a href="index.html">HOME</a></li>
+				</ul>			
+
+				<ul id="menu_secoes">
+					<li><a class="inicial" href="#" id="opt-feminino">WOMAN</a></li>
+					<li><a class="inicial" href="#" id="opt-masculino">MAN</a></li>
+					<li><a class="inicial" href="#" id="opt-infantil">TEEN</a></li>
+				</ul>		
+
+				<ul id="sub-feminino">
+					<li><a href="categoria.html">T-SHIRTS</a></li>
+					<li><a href="#">JEANS</a></li>
+					<li><a href="#">SWEATERS</a></li>
+					<li><a href="#">BELTS</a></li>
+				</ul>			
+
+				<ul id="sub-masculino">
+					<li><a href="#">JEANS</a></li>
+					<li><a href="#">T-SHIRTS</a></li>
+					<li><a href="#">UNDERWEAR</a></li>
+					<li><a href="#">POLO</a></li>					
+				</ul>			
+
+				<ul id="sub-infantil">
+					<li><a href="#">T-SHIRTS</a></li>
+					<li><a href="#">DRESSES</a></li>
+					<li><a href="#">SHOES</a></li>
+					<li><a href="#">BOTTOMS</a></li>
+				</ul>			
+			</div>
+
+      <div id="core" style="height: 600px;">
+				<form id="contato" action="http://localhost:3000/contatos" method="Post">
+					<h1 class="contato"> CONTATO</h1>
+					<h5 class="aviso">lksadasksA skska pskjosjopa psjpoiajda pajsdapo</h5>
+					<p>
+						<label for="nome">Nome: </label><br />
+						<input type="text" id="nome" name="contato[nome]">
+					</p>
+					<p>
+						<label for="email">Email: </label><br />
+						<input type="text" id="email" name="contato[email]">
+					</p>
+					<p>
+						<label for="codigo">Codigo</label><br />
+						<input type="text" id="codigo">
+					</p>
+					<p>
+						<label for="mensagem">Mensagem: </label><br />
+						<textarea id="mensagem" name="contato[comentario]" ></textarea>
+					</p>
+					<input type="submit" />
+				</form>
+      </div> <!--core-->
+
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	
+	<div id="footer">
+		<div class="container"> 
+			<div id="info">
+				<ul>
+					<li><a href="#">HOME</a> |</li>
+					<li><a href="#">PRODUCTS</a> |</li>
+					<li><a href="#">SALES</a> |</li>
+					<li><a href="#">NEWSLETTER</a> |</li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+				<p>TM 2010, MIRROR FASHION, SECURITY & PRIVACY</p>
+			</div>
+
+			<div id="busca">
+				<img src="images/twitter.jpg" alt=""/>
+				<img src="images/rss.jpg" alt=""/>
+				<p>NEWS AND DISCOUNTS?
+					<input type="text"/><img src="images/seta.jpg" alt=""/>
+				</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
