@@ -7,7 +7,7 @@ function mudaImagem(id, caminhoDaImagem){
 				$(this).css('opacity', '1');
 			},
 			function(){
-				$(this).css('opacity', '0.9');
+				$(this).css('opacity', '0.5');
 			}
 		);
 	});
