@@ -2,9 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head> 
 	<title>Mirror Fashion</title>
+	<link href="css/jquery-ui-1.8rc3.custom.css" rel="stylesheet" type="text/css" media="screen" />	
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 	<script type="text/javascript" src="script/jquery-1.4.2.js"></script> 	
-	<script type="text/javascript" src="script/menu.js"></script> 	
+	<script type="text/javascript" src="script/jquery-ui-1.8rc3.custom.min.js"></script> 
+	<script type="text/javascript" src="script/menu.js"></script>
+	<script type="text/javascript" src="script/produto.js"></script> 	 	
+	<script type="text/javascript" src="script/loja_tabs.js"></script> 
 </head>
 <body>
 	<div id="main">
@@ -49,9 +53,42 @@
 				</ul>			
 			</div>
 
-            <div id="core" style="height: 600px;">
+      <div id="core" style="height: 600px;">
+				<div id="produto_imagem" class="clearfix">
+					<img src="images/produto_foto_grande_1.jpg"/>
+					<img src="images/add_to_bag.jpg"/>
+				</div>
+	
+				<div id="produto_descricao" class="clearfix">
+					<p style="padding-bottom: 20px">migalha > de > pao </p>
+					<strong style="padding-bottom: 20px">ASOS MERINO SHAWL COLAR CARDIGAN</strong>
+					<ul style="padding-bottom: 20px">
+						<li>Merino cardigan</li>
+						<li>Merino cardigan</li>
+						<li>Merino cardigan</li>
+					</ul>
 
-            </div> <!--core-->
+					<p>Codigo: we093429</p>
+					<p>Valor: <span>R$ 120,00</span><p>
+					<p>
+						Cores 
+					</p>
+						<div id="preto" class="quadrado"></div>
+						<div id="azul" class="quadrado"></div>
+						<div id="cinza" class="quadrado"></div>
+					<div id="tabs">
+						<ul>
+							<li><a href="#tabs-1">More details</a></li>
+							<li><a href="#tabs-2">Send</a></li>
+							<li><a href="#tabs-3">Comments</a></li>
+						</ul>
+						<div id="tabs-1">If you are unable to find the info you need after visiting HELP, please use the form below.</div>				
+						<div id="tabs-2">Your inquiry is important to us; we typically respond within 24 business hours. Thank You.</div>
+						<div id="tabs-3">Leave your ideas about our website. We want improve the better for you.</div>
+					</div>
+					<div style="clear:both"></div>
+				</div>
+      </div> <!--core-->
 		</div>
 	</div>
 	<div style="clear:both"></div>

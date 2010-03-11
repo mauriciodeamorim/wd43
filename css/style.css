@@ -82,6 +82,16 @@ ul[id|="sub"] {background: #FCFCFC; float: right; clear: right; padding-right: 2
 #preto {background-color: yellow;}
 #azul {background-color: blue;}
 #cinza {background-color: gray;}
+
+.ui-tabs {width: 300px; margin: 0 0 20px 0 }
+.ui-widget-header {background: #fff; border: solid 1px #DDD}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {color: #0C0241;}
+.ui-state-active, ui-widget-content .ui-state-active {border: solid 1px #0c0241;}
+.ui-state-hover, .ui-widget-content .ui-state-hover,
+.ui-state-focus, .ui-widget-content .ui-state-focus {border: solid 1px #0c0241; background: #fff}
+#tabs {float: right;}
+
+#slideshow {margin-bottom: 20px; height: 157px; position: relative; background: url(../images/carrossel.jpg) repeat-x; width: 100%; }
 /*
 ul#menu
 Le-se procure dentro da pagina os UL com id=menu
